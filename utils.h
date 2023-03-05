@@ -7,9 +7,9 @@
 
 #include "iostream"
 
-class utils {
+class Utils {
 public:
-    static void print(const std::string message);
+    static void print(std::string message);
     static std::string prompt(std::string message);
 };
 

@@ -21,12 +21,12 @@ target_include_directories(Test PUBLIC "${PROJECT_BINARY_DIR}" "${PROJECT_SOURCE
 ## Usage
 
 ```cpp
-#include <cpp-utils/utils.h>
+#include <cpp-utils/Utils.h>
 
 int main() {
-    utils::print("Hello, World!");
+    Utils::print("Hello, World!");
     
-    std::string input = utils::prompt("Enter a string: ");
+    std::string input = Utils::prompt("Enter a string: ");
     
     return 0;
 }
